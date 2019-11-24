@@ -6,4 +6,4 @@ my $app = sub {
     return [
         $q->psgi_header('text/plain'), ["Hello ", $q->param('name')],
     ];
-}
+};
